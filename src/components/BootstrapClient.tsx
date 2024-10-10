@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 
+
 function BootstrapClient() {
     
     useEffect(() => {
