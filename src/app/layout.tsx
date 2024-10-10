@@ -21,6 +21,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "ORTIMIZ",
   description: "KPI and Action Execution",
+  icons: "/images/logo/Brand-Logo_0.svg"
 };
 
 

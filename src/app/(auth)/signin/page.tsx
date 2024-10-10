@@ -17,7 +17,7 @@ export default function Page() {
                 <div className={`ort-signin-wrapper ${styles.background}`}>
                     <div className="ort-card-signin">
                         <span className={styles.form_logo}>
-                            <Image src='/images/logo/logo.png' alt='logo-login' height={250} width={250} />
+                            <Image src='/images/logo/logo.png' alt='logo-login' height={280} width={280} />
                         </span>
                         <div className="ort-signin-header">
                             <form action="index.html">
