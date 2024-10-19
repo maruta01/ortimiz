@@ -1,10 +1,11 @@
 
-import BootstrapClient from "@components/BootstrapClient"
+import BootstrapClient from "../components/BootstrapClient"
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./ort.css"
 import "./globals.css";
+import React from "react";
 
 
 const geistSans = localFont({
