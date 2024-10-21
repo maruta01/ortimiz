@@ -3,7 +3,7 @@ const { parse } = require('url')
 const next = require('next')
  
 const dev = process.env.NODE_ENV !== 'production'
-const hostname = process.env.NODE_ENV !== 'production' ? 'localhost':'http://pamsofficial.co.z233714-re16xt.ps04.zwhhosting.com/'
+const hostname = process.env.NODE_ENV !== 'production' ? 'localhost':'http://pamsofficial.co/'
 const port = process.env.port || 3000
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
