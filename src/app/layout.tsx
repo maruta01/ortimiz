@@ -5,7 +5,10 @@ import localFont from "next/font/local";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./ort.css"
 import "./globals.css";
+import Link from 'next/link'
 import React from "react";
+import Navbar from "../components/Navbar";
+
 
 
 const geistSans = localFont({
@@ -35,11 +38,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
         <BootstrapClient />
       </head>
       <body>
+        <Navbar />
+
         {children}
       </body>
     </html>
+
   );
 }

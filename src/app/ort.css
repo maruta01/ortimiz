@@ -168,7 +168,9 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem; 
+  font-family: 'Kanit', sans-serif;
+}
 
 p {
   margin-top: 0;
@@ -396,7 +398,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.2; 
+  font-family: 'Kanit', sans-serif;
+}
 
 h1, .h1 {
   font-size: 2.1875rem; }
