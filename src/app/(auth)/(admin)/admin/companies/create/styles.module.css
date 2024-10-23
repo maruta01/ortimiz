@@ -1,0 +1,8 @@
+.background {
+    position: relative;
+    min-height: 100vh;
+}
+
+.form_logo > img {
+    margin: auto;
+}
